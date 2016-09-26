@@ -1,0 +1,21 @@
+body {
+	background: -webkit-linear-gradient(bottom, rgba(153,61,0, 1), rgba(54, 113, 176, 0.4));
+	background-size: cover;
+
+}
+
+h1{color:blue;
+}
+h2{color:gold;
+}
+h3{color:red;
+}
+h4{color: orange;
+}
+h5 {
+	color: green;
+}
+
+img {
+	border-radius: 10%;
+}

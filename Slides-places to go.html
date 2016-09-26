@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Places to go.css"
+	<title></title>
+</head>
+<body>
+
+<center>
+
+<nav>
+	<a href="http://www.escapehere.com/destination/10-best-caribbean-island-vacation-destinations/">Caribbean</a>
+	<a href="http://www.collegescholarships.org/scholarships/country/africa.htm">Africa</a>
+	<a href="http://www.lonelyplanet.com/china/shanghai/activities/sightseeing-tours/beijing-one-day-day-trip-shanghai-air">China</a>
+	<a href="https://www.hawaii.com/big-island/attractions/visiting-the-volcano/">Hawaii</a>
+	<a href="https://en.wikipedia.org/wiki/Champs-Élysées">France</a>
+</nav>
+
+<div>
+
+<figure class="pic" >
+<figcaption><h1>So Many Beautiful Beaches in the Caribbean</h1></figcaption>
+<img style=" width: 200px; height: 200px;" src="http://www.postcardlocker.com/images/PCU4191.jpg">	
+
+</figure>
+
+
+<figure class="pic" >
+<figcaption><h2>How About A Safari in Africa?</h2></figcaption>
+<img style=" width: 400px; height: 400px;" src="http://www.collegescholarships.org/images/africa-study-scholarships.jpg">
+</figure>
+
+
+
+<figure class="pic" >
+<figcaption><h3>Dare To Go To The Forbidden City in China?</h3></figcaption>
+<img style=" width: 600px; height: 600px;" src="http://cache-graphicslib.viator.com/graphicslib/thumbs674x446/2052/SITours/beijing-in-one-day-day-trip-from-shanghai-by-air-in-shanghai-107610.jpg">
+</figure>
+
+
+
+<figure class="pic" >
+<figcaption><h4>Want To Get Up Close To Flowing Lava in Hawaii?</h4></figcaption>
+<img style=" width: 800px; height: 800px;" src="https://s3-us-west-1.amazonaws.com/hawaii-com-wp/wp-content/uploads/2008/10/17100000/HTA-Tor-Johnson-Volcano-Boat-Tour.jpg">
+</figure>
+
+
+
+<figure class="pic" >
+<figcaption><h5>Ooh La La! Did Someone Say Paris?</h5></figcaption>
+<img style=" width: 1000px; height: 1000px " src="http://www.hotel-powers.com/images/monuments/champs-elysees.jpg">
+</figure>
+
+</div>
+</center>
+<center>
+<a class="backward" onclick="plusDivs(-1)">&#10094;</a>
+<a class="forward" onclick="plusDivs(+1)">&#10095;</a>
+</center>
+
+<center>
+<form>
+		So, Where Would You Like To Visit?<br>
+		<input type="text" name="Enter Place To Visit?"> <br>
+		<input type="button" name="Submit" value="Submit" :hover <br>
+</form>
+</center>
+
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+	showDivs(slideIndex += n);
+}
+function showDivs(n) {
+	var i;
+	var x = document.getElementsByClassName("pic");
+	if (n>x.length) {slideIndex = 1}
+	if (n < 1) {slideIndex = x.length}
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+	x[slideIndex-1].style.display = "block";	
+}	
+
+</script>
+
+</body>
+</html>
